@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>P3: Feature-branch Git workflow</title><link rel="stylesheet" href="style.css"></head>
+<body><header class="site-header"><a href="index.html">Web Development Lab</a><nav aria-label="Main navigation"><a href="#work">Practical P3</a><a href="../../README.md">All practicals</a></nav></header>
+<main id="work"><p class="lead">Programming for Web Development - I Laboratory</p><h1>P3: Feature-branch Git workflow</h1><p class="lead">A short explanation of the feature-branch workflow.</p><section class="panel"><h2>What I worked on</h2><p>For this practical I practise making a separate branch for a change instead of editing the main branch directly. After checking the changes, the branch can be merged back into main.</p></section><section class="panel"><h2>Notes / example</h2><pre><code>git switch -c feature/about-section
+# make the changes
+git status
+git add .
+git commit -m "Add about section"
+git switch main
+git merge feature/about-section</code></pre></section></main><footer>Web Development Lab · P3</footer></body></html>
