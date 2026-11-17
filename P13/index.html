@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>P13: Flexbox and Grid</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="site-header"><a href="index.html">Web Development Lab</a><nav aria-label="Main navigation"><a href="#work">Practical P13</a><a href="../../README.md">All practicals</a></nav></header>
+<main id="work"><p class="lead">Programming for Web Development - I Laboratory</p><h1>P13: Choosing between Flexbox and Grid for a shared layout</h1>
+<p class="lead">A small comparison of two CSS layout tools.</p>
+<section class="compare-grid">
+<article class="card"><h2>Flexbox</h2><p>Flexbox works well when I want to line items up in a row or a column. A navigation bar is a common example.</p><pre><code>.nav { display: flex; gap: 1rem; }</code></pre></article>
+<article class="card"><h2>CSS Grid</h2><p>Grid is useful when I need to organise content in rows and columns, like a gallery of project cards.</p><pre><code>.projects { display: grid; grid-template-columns: repeat(2, 1fr); }</code></pre></article>
+</section>
+</main><footer>Web Development Lab · P13</footer>
+</body></html>
